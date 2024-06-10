@@ -1,91 +1,106 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Make",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#ee2fee",
+    "light": "#E657FF",
+    "dark": "#6A50E1",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#FF00FF",
+      "to": "#6D00CC"
     }
+  },
+  "modeToggle": {
+    "default": "light"
+  },
+  "topbarCtaButton": {
+    "name": "Get started free",
+    "url": "https://www.make.com/en/register"
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Log in",
+      "url": "https://www.make.com/en/login"
     }
   ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+  "primaryTab": {
+    "name": "Help Center"
   },
+  "backgroundImage": "/background.png",
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Release Notes",
+      "url": "release-notes"
+    },
+    {
+      "name": "API Documentation",
+      "url": "api-docs"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Blog",
+      "url": "https://www.make.com/en/blog",
+      "icon": "book-open",
+      "iconType": "regular"
     },
     {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "url": "https://community.make.com",
+      "icon": "comments",
+      "iconType": "regular"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Make Academy",
+      "url": "https://academy.make.com",
+      "icon": "graduation-cap",
+      "iconType": "regular"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Home",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "help/home"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "General",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "help/general/pricing-parameters",
+        "help/general/affiliate-program"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Release Notes",
       "pages": [
-        "api-reference/introduction"
+        "release-notes/may-3",
+        "release-notes/april-18",
+        "release-notes/april-5",
+        "release-notes/april-2"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "For Make Developers",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-docs/developers/fundamentals",
+        "api-docs/developers/make-api-structure"
+      ]
+    },
+    {
+      "group": "API Reference",
+      "pages": [
+        "api-docs/api-reference/overview"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "x": "https://x.com/make_hq?lang=en",
+    "linkedin": "https://www.linkedin.com/company/itsmakehq/?originalSubdomain=cz"
   }
 }
