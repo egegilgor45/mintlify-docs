@@ -1,0 +1,22 @@
+---
+title: Make API structure
+---
+
+The root URL of the Make API consists of three parts and looks as follows:
+
+```
+{environment_url}/api/v2/{api_endpoint}
+```
+
+### Environment URL
+The environment of Make you work in. This can be the link to your private instance of Make, for example, https://development.make.cloud, or the link to Make (with or without the zone, depending on a specific endpoint), for example, https://eu1.make.com.
+
+<Note>
+Always use HTTPS in your API requests.
+</Note>
+
+### API version
+The version of the API preceded by `/api/`
+
+### Endpoint (with or without parameters)
+Each endpoint represents a resource that you can work with. Endpoints contain required and/or optional parameters. The resources are described in detail in Make resources.

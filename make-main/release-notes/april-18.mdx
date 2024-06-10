@@ -1,0 +1,42 @@
+---
+title: April 18, 2024
+---
+
+### Fixed issues
+
+*   When rerunning an incomplete execution caused by an error in a route in a router, only the route where the error occurred would be executed while resolving the incomplete executions. Any subsequent routes would be ignored. Now, all subsequent routes are also processed when resolving incomplete executions.
+    
+*   Previously, custom functions couldn't handle parameters with binary data types, such as email attachments or pictures. This caused failures when trying to process files with custom functions. We fixed it and now you can successfully use custom functions to process raw binary data.
+    
+
+### Apps updates
+
+New apps:
+
+*   [TikTok Conversions](apps/marketing/tiktok-conversions.html "TikTok Conversions")
+     - Introducing an app that allows you to track conversion events that occur outside of TikTok and optimize your ads accordingly.
+    
+*   [TikTok Reports](apps/marketing/tiktok-reports.html "TikTok Reports")
+     - With this app you can create detailed reports on the performance of your TikTok advertising campaigns.
+    
+*   [BigCommerce](apps/commerce/bigcommerce.html "BigCommerce")
+     - Using this app you can manage your BigCommerce orders, carts, customers, products, and blog posts.
+    
+*   [Azure OpenAI](apps/ai/azure-openai.html "Azure OpenAI")
+     - This AI app lets you generate images and create transcriptions, translations, and chat completions.
+    
+
+Updated apps:
+
+*   [LinkedIn](apps/marketing/linkedin.html "LinkedIn")
+     - A new module, **Search Organizations**, has been added to help you easily locate organizations by vanity name or email domain.
+    
+*   [LinkedIn Matched Audiences](apps/marketing/linkedin-matched-audiences--beta-.html "LinkedIn Matched Audiences")
+     - Four modules have been deprecated due to a LinkedIn API change: **Attach a Seed Audience**, **Create a Lookalike Audience**, **List Lookalike Audience’s Seeds**, and **Update a Campaign Target**.
+    
+
+### Documentation updates
+
+*   Sometimes things don’t work as expected and you might see some errors in your scenarios. To make it easier for you to handle such events, we rewrote the whole [Error section on the Help Center](https://www.make.com/en/help/errors)
+     to make sure that you get all the information you need to resolve issues. Go check it out!
+    
